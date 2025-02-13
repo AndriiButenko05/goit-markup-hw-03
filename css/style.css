@@ -12,6 +12,14 @@ a {
 button {
   font-family: 'Roboto', sans-serif;
 }
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* HEADER */
 .header-logo {
   font-family: 'Raleway', sans-serif;
