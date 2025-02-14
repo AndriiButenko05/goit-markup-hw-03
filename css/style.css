@@ -166,6 +166,10 @@ h1 {
 /* Features */
 .features {
 }
+.features-sect {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -176,10 +180,12 @@ h1 {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+.features-list-item-size {
+  flex-basis: calc(100% -24 * 3 / 4);
+}
 .features-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc(100% -24 * 3 / 4);
 }
 .features-list-item-heading {
   padding-top: 128px;
@@ -280,12 +286,13 @@ h1 {
   flex-wrap: wrap;
 }
 .portfolio-list-text-container {
-  padding: 23px 16px;
-}
-.portfolio-list-img {
-  margin-bottom: 32px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.portfolio-list-img {
+  margin-bottom: 32px;
 }
 
 .portfolio-list-heading {
