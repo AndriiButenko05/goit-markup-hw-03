@@ -182,13 +182,14 @@ h1 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.features-list-item-size {
-  flex-basis: calc(100% -72px / 4);
-}
 .features-list {
   display: flex;
   gap: 24px;
 }
+.features-list-item {
+  flex-basis: calc(100% -72px / 4);
+}
+
 .features-list-item-heading {
   padding-top: 128px;
   margin-bottom: 8px;
